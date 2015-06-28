@@ -39,37 +39,9 @@ vendor/engines
 
 nohup.out
 
-config/api.yml
-config/auth.yml
-config/analytics.yml
-config/database.yml
-config/errbit.yml
-config/host.yml
-config/leigoo.yml
-config/payment.yml
-config/log.yml
-config/tejas.yml
 
 .env
-config/memcache.yml
 
-config/mongoid.yml
-
-config/omniauth.yml
-
-config/nb.yml
-
-config/redis.yml
-config/sidekiq_redis.yml
-
-config/shards.yml
-
-config/smtp.yml
-
-config/tire.yml
-config/yell.yml
-
-config/url.yml
 
 .powrc
 
@@ -105,7 +77,6 @@ flood/results.jtl
 
 
 public/api-docs.json
-public/nb/
 
 
 public/robots.txt

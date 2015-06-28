@@ -1,4 +1,6 @@
-source 'https://rubygems.org'
+# source 'https://rubygems.org'
+
+source 'https://ruby.taobao.org/'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -22,6 +24,15 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+
+# Add a comment summarizing the current schema to the top or bottom of each of your… . Read more: https://github.com/ctran/annotate_models
+gem 'annotate', '~> 2.6.6'
+# https://github.com/intridea/hashie
+gem 'hashie', '3.4.2'
+
+gem 'responders', '~> 2.0'
+gem 'json', '~> 1.8.3'
+gem 'minitest', '~> 5.7.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
